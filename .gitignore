@@ -1,0 +1,66 @@
+# =============== #
+# Unity generated #
+# =============== #
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Bb]uildArtifacts/
+[Oo]bj/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# Ignore crash reports
+sysinfo.txt
+
+# ======================== #
+# Visual Studio / Rider    #
+# ======================== #
+.vscode/
+.idea/
+*.sln
+*.csproj
+*.unityproj
+*.pidb
+*.user
+*.userprefs
+*.booproj
+*.svd
+
+# Rider project files
+*.sln.iml
+
+# =========== #
+# OS Specific #
+# =========== #
+.DS_Store
+Thumbs.db
+
+# ================= #
+# Package managers  #
+# ================= #
+# If using Node.js tools (like WebXR builds)
+node_modules/
+npm-debug.log
+
+# ======================= #
+# Addressables / Streaming #
+# ======================= #
+[Aa]ssetBundles/
+[Aa]ddressablesBuildLayout/
+StreamingAssets/aa/
+
+# ================= #
+# Builds / Archives #
+# ================= #
+*.apk
+*.aab
+*.xcodeproj
+*.xcworkspace
+*.ipa
+
+# ============ #
+# Other Unity  #
+# ============ #
+*.unitypackage
