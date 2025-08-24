@@ -49,6 +49,7 @@ public class SimpleVRShooter : MonoBehaviour
         }
     }
 
+    // Add this to your SimpleVRShooter script's Shoot() method for testing
     void Shoot()
     {
         if (projectilePrefab == null || shootPoint == null) return;
@@ -56,11 +57,19 @@ public class SimpleVRShooter : MonoBehaviour
         // Create projectile
         GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, shootPoint.rotation);
         
+        // Debug info
+        Debug.Log($"Shooting projectile from {shootPoint.position} in direction {shootPoint.forward}");
+        
         // Add velocity to projectile
         Rigidbody rb = projectile.GetComponent<Rigidbody>();
         if (rb != null)
         {
             rb.velocity = shootPoint.forward * projectileSpeed;
+            Debug.Log($"Projectile velocity set to {rb.velocity}");
+        }
+        else
+        {
+            Debug.LogError("Projectile has no Rigidbody!");
         }
 
         // Play shoot sound
@@ -68,7 +77,6 @@ public class SimpleVRShooter : MonoBehaviour
         {
             audioSource.Play();
         }
-
-        Debug.Log("Projectile fired!");
     }
+
 }
