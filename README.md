@@ -7,6 +7,14 @@ Step into a retro-futuristic world where neon lights dance across vintage CRT mo
 
 **🎮 Core Gameplay:** Use the hints placed in the enviorenment to get to the final location, then Use your Meta Quest controllers to shoot projectiles at vintage CRT monitors, triggering a cascade of floating orbs. Find the correct orb among 15 glowing spheres to unlock the secret key and complete your mission.
 
+<iframe width="560" height="315"
+  src="https://www.youtube.com/embed/m_M_mJ-Z1FA"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
+
 ## ✨ Features
 
 ### 🎨 **Immersive Retro-Cyber Aesthetics**
@@ -186,4 +194,3 @@ Assets/
 5. Open a Pull Request
 
 
-```
