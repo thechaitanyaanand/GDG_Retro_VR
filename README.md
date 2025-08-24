@@ -5,7 +5,7 @@ Here's the **complete** document converted to Markdown in one place — cleaned 
 
 Step into a retro-futuristic world where neon lights dance across vintage CRT monitors and secrets await discovery. This Unity VR experience combines atmospheric design with interactive gameplay, challenging players to uncover a hidden secret through creative exploration and precision shooting.
 
-**🎮 Core Gameplay:** Use your Meta Quest controllers to shoot projectiles at vintage CRT monitors, triggering a cascade of floating orbs. Find the correct orb among 15 glowing spheres to unlock the secret key and complete your mission.
+**🎮 Core Gameplay:** Use the hints placed in the enviorenment to get to the final location, then Use your Meta Quest controllers to shoot projectiles at vintage CRT monitors, triggering a cascade of floating orbs. Find the correct orb among 15 glowing spheres to unlock the secret key and complete your mission.
 
 ## ✨ Features
 
@@ -61,7 +61,7 @@ Step into a retro-futuristic world where neon lights dance across vintage CRT mo
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/vr-retro-cyber-environment.git
+   git clone https://github.com/thechaitanyaanand/vr-retro-cyber-environment.git
    cd vr-retro-cyber-environment
 
 
@@ -186,9 +186,4 @@ Assets/
 5. Open a Pull Request
 
 
-```
-
-If you'd like, I can:
-- produce a `README.md` file you can download, or  
-- tweak it for **GitHub** (add a collapsible Table of Contents, GIF, CI badges, or more polished badges). Which would you prefer?
 ```
